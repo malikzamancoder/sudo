@@ -1,0 +1,50 @@
+/* hoverr */
+.contact-us:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.contact-us {
+  border-style: solid;
+  border-width: 2px;
+  border-color: green;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* focus */
+.username:focus {
+  background-color: lightblue;
+  color: yellow;
+}
+.nexskill :visited {
+  color: red;
+}
+.item:first-child {
+  font-weight: bold;
+}
+.item:last-child {
+  color: blue;
+}
+
+.item:nth-child(3) {
+  font-style: italic;
+}
+.Title::before {
+  content: "Welcome to ";
+  color: green;
+}
+.Title::after {
+  content: "Kashif";
+  color: blue;
+}
+.para::before {
+  content: "This";
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    background-color: blue;
+    padding: 20px;
+  }
+}
